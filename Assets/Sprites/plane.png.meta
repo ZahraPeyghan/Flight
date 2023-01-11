@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: plane_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2001
+        width: 906
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ba9fc45eaee3c42a4dfb890f857b9a
+      internalID: 1346890564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plane_1
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 2242
+        width: 1417
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a252fda894c8c0f4aafe32a44dfdb3db
+      internalID: -1995919147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plane_4
+      rect:
+        serializedVersion: 2
+        x: 4575
+        y: 2315
+        width: 1179
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3393accf41a56564b8b4843ad1978b1c
+      internalID: -402221023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plane_6
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 1966
+        width: 1362
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9a2abd95f57634ba30e4bc02dc27e5
+      internalID: 1770880648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plane_19
+      rect:
+        serializedVersion: 2
+        x: 4334
+        y: 398
+        width: 1289
+        height: 1430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaa9558f80192e4ea310b4a91b58427
+      internalID: 276231724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plane_24
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 499
+        width: 1195
+        height: 1226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8a59227d8f61f42b0453034472a8be
+      internalID: -1096211213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plane_26
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 478
+        width: 1095
+        height: 1236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6105cef99f6a14f44b958f7121a350ba
+      internalID: 631787217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plane_27
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 489
+        width: 1236
+        height: 1236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0124d80a55982d248805c4233a748589
+      internalID: 1840264982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +294,66 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plane_22: -1748627086
+      plane_43: -1739754697
+      plane_50: 1966225935
+      plane_55: -192078046
+      plane_18: -1647957038
+      plane_39: 1185851721
+      plane_49: 1896875548
+      plane_45: -1651759136
+      plane_40: 1255066718
+      plane_10: -1666852018
+      plane_17: 1137294088
+      plane_33: -2023305695
+      plane_20: 1718821145
+      plane_41: -502275178
+      plane_58: -1446775610
+      plane_26: 631787217
+      plane_24: -1096211213
+      plane_25: -629726326
+      plane_46: 86149545
+      plane_5: 589402302
+      plane_48: 589111962
+      plane_54: 2015106431
+      plane_57: -1392382630
+      plane_30: -39848178
+      plane_32: -1247990600
+      plane_9: -53478646
+      plane_3: 1092557910
+      plane_8: 1280623275
+      plane_13: -605051654
+      plane_31: -1803219609
+      plane_15: -1345546507
+      plane_11: -2027961547
+      plane_53: 139334009
+      plane_7: 1528519941
+      plane_21: -241308912
+      plane_6: 1770880648
+      plane_28: -892107603
+      plane_52: 1200008066
+      plane_2: 886616606
+      plane_29: 1684046856
+      plane_35: -483935028
+      plane_42: -1385327652
+      plane_16: -1471935651
+      plane_4: -402221023
+      plane_34: 143937383
+      plane_38: 884808307
+      plane_47: -1915528569
+      plane_56: -869506068
+      plane_12: -284577385
+      plane_27: 1840264982
+      plane_36: 1718882313
+      plane_0: 1346890564
+      plane_51: -1000957460
+      plane_14: 398311494
+      plane_37: -904913897
+      plane_19: 276231724
+      plane_1: -1995919147
+      plane_23: -1012265479
+      plane_44: -393226027
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
