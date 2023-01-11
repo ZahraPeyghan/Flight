@@ -15,6 +15,6 @@ public class Sky_Movment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        meshRenderer.material.mainTextureOffset+= new Vector2 (0, Speed * Time.deltaTime);
+            meshRenderer.material.mainTextureOffset+= new Vector2 (0, Speed * Time.deltaTime);
     }
 }

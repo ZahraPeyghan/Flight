@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 700
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -297,8 +297,8 @@ TextureImporter:
     nameFileIdTable:
       plane_22: -1748627086
       plane_43: -1739754697
-      plane_50: 1966225935
       plane_55: -192078046
+      plane_50: 1966225935
       plane_18: -1647957038
       plane_39: 1185851721
       plane_49: 1896875548
@@ -322,12 +322,12 @@ TextureImporter:
       plane_32: -1247990600
       plane_9: -53478646
       plane_3: 1092557910
-      plane_8: 1280623275
-      plane_13: -605051654
-      plane_31: -1803219609
       plane_15: -1345546507
-      plane_11: -2027961547
+      plane_13: -605051654
+      plane_8: 1280623275
       plane_53: 139334009
+      plane_11: -2027961547
+      plane_31: -1803219609
       plane_7: 1528519941
       plane_21: -241308912
       plane_6: 1770880648
