@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1564068875045525272}
   - component: {fileID: 8101002234773928610}
-  - component: {fileID: 1403339575333306732}
-  - component: {fileID: 7079164750807986818}
+  - component: {fileID: -2156648058398859812}
+  - component: {fileID: 4317054111221392019}
   m_Layer: 0
   m_Name: plane5
   m_TagString: Planes
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 9
   m_Sprite: {fileID: -1096211213, guid: 9af70104e5a9c2f4daf87b147715b941, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1403339575333306732
+--- !u!114 &-2156648058398859812
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -99,8 +99,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transform: {fileID: 0}
-  Speed: 4
---- !u!61 &7079164750807986818
+  Speed: 2
+--- !u!61 &4317054111221392019
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,7 +110,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

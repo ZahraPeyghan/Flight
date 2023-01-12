@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6597848760713869792
+--- !u!1 &4733338455222162832
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6535493308337496847}
-  - component: {fileID: 5371719800624322810}
-  - component: {fileID: -5109402282501835979}
-  - component: {fileID: -2036636597770772174}
+  - component: {fileID: 5848184241106925903}
+  - component: {fileID: 5825072675228304675}
+  - component: {fileID: -3548339374946563603}
+  - component: {fileID: 7917850424130199377}
   m_Layer: 0
-  m_Name: plane7
+  m_Name: Obstacles11
   m_TagString: Planes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6535493308337496847
+--- !u!4 &5848184241106925903
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6597848760713869792}
+  m_GameObject: {fileID: 4733338455222162832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.622215, y: 0.5726082, z: 0}
+  m_LocalPosition: {x: -4.0838914, y: -4.3286047, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5371719800624322810
+--- !u!212 &5825072675228304675
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6597848760713869792}
+  m_GameObject: {fileID: 4733338455222162832}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -75,38 +75,24 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1840264982, guid: 9af70104e5a9c2f4daf87b147715b941, type: 3}
+  m_Sprite: {fileID: -1426783919, guid: 299de49d972d8e645867840db149829d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.7657144, y: 1.7659591}
+  m_Size: {x: 0.8466667, y: 0.79333335}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-5109402282501835979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6597848760713869792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4db61600eaa0824698b275439ab09e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transform: {fileID: 0}
-  Speed: 4
---- !u!61 &-2036636597770772174
+--- !u!61 &-3548339374946563603
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6597848760713869792}
+  m_GameObject: {fileID: 4733338455222162832}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -117,12 +103,26 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.7657144, y: 1.7659591}
-    newSize: {x: 1.7657144, y: 1.7659591}
+    oldSize: {x: 0.8466667, y: 0.79333335}
+    newSize: {x: 0.8466667, y: 0.79333335}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7657144, y: 1.7659591}
+  m_Size: {x: 0.8466667, y: 0.79333335}
   m_EdgeRadius: 0
+--- !u!114 &7917850424130199377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4733338455222162832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4db61600eaa0824698b275439ab09e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transform: {fileID: 0}
+  Speed: 2

@@ -5,16 +5,19 @@ using UnityEngine;
 public class Plane_Movment : MonoBehaviour
 {
     public Transform transform;
-    public float Speed=4f;
+    public float Speed=2f;
     // Start is called before the first frame update
     void Start()
     {
-        transform = GetComponent <Transform>();
+        transform = GetComponent<Transform>();
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.position -= new Vector3(0,Speed * Time.deltaTime,0);
+        if(transform.position.y<=-10){
+            Destroy(gameObject);
+        }
     }
 }
