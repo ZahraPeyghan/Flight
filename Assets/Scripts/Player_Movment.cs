@@ -37,4 +37,9 @@ public class Player_Movment : MonoBehaviour
         pos.x=Mathf.Clamp(pos.x,-1.85f,1.85f);
         transform.position=pos;
     }
+    private void OnTriggerEnter2D (Collition2D collition){
+        if(collition.gameObject.tag == "Planes"){
+            Time.timeScale=0;
+        }
+    }
 }

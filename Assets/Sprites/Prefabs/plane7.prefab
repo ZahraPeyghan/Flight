@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 6535493308337496847}
   - component: {fileID: 5371719800624322810}
   - component: {fileID: -5109402282501835979}
+  - component: {fileID: -2036636597770772174}
   m_Layer: 0
   m_Name: plane7
-  m_TagString: Untagged
+  m_TagString: Planes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,3 +100,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transform: {fileID: 0}
   Speed: 4
+--- !u!61 &-2036636597770772174
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6597848760713869792}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.7657144, y: 1.7659591}
+    newSize: {x: 1.7657144, y: 1.7659591}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.7657144, y: 1.7659591}
+  m_EdgeRadius: 0
