@@ -413,6 +413,7 @@ MonoBehaviour:
   Speed: 1.5
   RatationSpeed: 5
   CoinSound: {fileID: 1054239874}
+  Score_Value: {fileID: 1054239873}
 --- !u!50 &1054239871
 Rigidbody2D:
   serializedVersion: 4

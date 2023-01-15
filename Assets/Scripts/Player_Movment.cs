@@ -8,6 +8,7 @@ public class Player_Movment : MonoBehaviour
     public float Speed=1.5f;
     public float RatationSpeed=5f;
     public  AudioSource CoinSound;
+    public Scoure_Manager Score_Value;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,6 +45,7 @@ public class Player_Movment : MonoBehaviour
         }
         if(collition.gameObject.tag == "Coin"){
             CoinSound.Play();
+            Score_Value.Score +=10;
             Destroy(collition.gameObject);
         }
     }
