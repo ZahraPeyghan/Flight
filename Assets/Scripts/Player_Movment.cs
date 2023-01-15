@@ -41,5 +41,8 @@ public class Player_Movment : MonoBehaviour
         if(collition.gameObject.tag == "Planes"){
             Time.timeScale=0;
         }
+        if(collition.gameObject.tag == "Coin"){
+            Destroy(collition.gameObject);
+        }
     }
 }
