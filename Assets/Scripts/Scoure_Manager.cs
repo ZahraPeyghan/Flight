@@ -7,6 +7,7 @@ public class Scoure_Manager : MonoBehaviour
 {
     public int Score = 0;
     public Text ScoreText;
+    public int highScore = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,12 +18,16 @@ public class Scoure_Manager : MonoBehaviour
     void Update()
     {
         ScoreText.text = Score.ToString();
+        if (Score > highScore){
+            highScore = Score;
+            Debug.Log ("High Score :" + highScore);
+        }
     }
     IEnumerator score(){
         while(true){
              yield return new WaitForSeconds(2);
             Score = Score + 1;
-            Debug.Log("Score :" + Score);
+            // Debug.Log("Score :" + Score);
         }
     }
 }
