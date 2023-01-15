@@ -48,5 +48,10 @@ public class Player_Movment : MonoBehaviour
             Score_Value.Score +=10;
             Destroy(collition.gameObject);
         }
+        if(collition.gameObject.tag == "Heart"){
+            CoinSound.Play();
+            Score_Value.Score +=20;
+            Destroy(collition.gameObject);
+        }
     }
 }
