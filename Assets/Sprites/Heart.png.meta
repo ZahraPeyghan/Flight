@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 69f9f603c7f184846914e859bfc3fd15
+guid: 97fd01eef0087df4ea7d8e660ad7e6ba
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GoldCoin_0
+      name: Heart_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 221
-        height: 220
+        x: 10
+        y: 161
+        width: 44
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75109011d4b627147a0e8fe63dfc3dd2
-      internalID: 1399100262
+      spriteID: ec72b78f80420804dbfb10b30068f503
+      internalID: -945301601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldCoin_1
+      name: Heart_1
       rect:
         serializedVersion: 2
-        x: 263
-        y: 0
-        width: 221
-        height: 220
+        x: 67
+        y: 162
+        width: 32
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ea071c0a3fbbb64798a367bf4ad17f1
-      internalID: -755284451
+      spriteID: 622065e4d69fd9e4dbe28e8fb11be7f5
+      internalID: -752266807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldCoin_2
+      name: Heart_2
       rect:
         serializedVersion: 2
-        x: 516
-        y: 0
-        width: 224
-        height: 220
+        x: 111
+        y: 161
+        width: 20
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4234da6c14e2de64aa1b06f701669a39
-      internalID: 2134485487
+      spriteID: a33a38088b92ac94dbfefa8d5ada288d
+      internalID: 1658847574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldCoin_3
+      name: Heart_3
       rect:
         serializedVersion: 2
-        x: 815
-        y: 0
-        width: 219
-        height: 220
+        x: 142
+        y: 161
+        width: 21
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e4dcc5046d212f42b3fca2ab231f1a3
-      internalID: 1863383439
+      spriteID: 49fe36a372e27bb4aaa4e57e52ce468a
+      internalID: 503817516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldCoin_4
+      name: Heart_4
       rect:
         serializedVersion: 2
-        x: 1077
-        y: 0
-        width: 184
-        height: 220
+        x: 175
+        y: 162
+        width: 31
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de37bde345ac2cc4d8df693afab4e04b
-      internalID: 369547275
+      spriteID: b6ec63df37823134498c9a450ea623ae
+      internalID: 568856824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldCoin_5
+      name: Heart_5
       rect:
         serializedVersion: 2
-        x: 1279
-        y: 0
-        width: 129
-        height: 220
+        x: 10
+        y: 103
+        width: 43
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 791f4ed4c485ef54a8cf9d1e35a257c2
-      internalID: -1301066834
+      spriteID: cd5e11e075dfc6a409d81db5d6720ff5
+      internalID: -1616236658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldCoin_6
+      name: Heart_6
       rect:
         serializedVersion: 2
-        x: 1459
-        y: 0
-        width: 55
-        height: 220
+        x: 67
+        y: 103
+        width: 31
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e9a16fc381ce4740b1df86f256c1048
-      internalID: -346876592
+      spriteID: df18ecb8d74e1414bb4e23d6d8498789
+      internalID: -266180434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldCoin_7
+      name: Heart_7
       rect:
         serializedVersion: 2
-        x: 1573
-        y: 0
-        width: 132
-        height: 220
+        x: 111
+        y: 103
+        width: 20
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,20 +278,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0a2c5610ff28fb489969fa133855903
-      internalID: 1952575856
+      spriteID: 09d53f10aff829740b616346188dd97d
+      internalID: -302303381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldCoin_8
+      name: Heart_8
       rect:
         serializedVersion: 2
-        x: 1738
-        y: 0
-        width: 205
-        height: 220
+        x: 142
+        y: 103
+        width: 21
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8f334d35335aa941829774b3705d75e
-      internalID: -2025548892
+      spriteID: a64a7042895cac44c9952c9e17734197
+      internalID: 1223196455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldCoin_9
+      name: Heart_9
       rect:
         serializedVersion: 2
-        x: 2009
-        y: 0
-        width: 220
-        height: 220
+        x: 175
+        y: 103
+        width: 31
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,8 +320,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 518d0a3a82602c348a2748dd6d0dd3c7
-      internalID: -500857409
+      spriteID: 2958987f159421a479c5efb4b46fcc57
+      internalID: 2061935235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 46
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926ca9a4301106149880d92a4a5a7e4d
+      internalID: 1071426063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_11
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 46
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a887ee8a960e845af80d8b62c62f6f
+      internalID: -1376389628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 46
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad114f7accae4c144ba9fe0ced3b18f5
+      internalID: 1147301268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 46
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a752d7b1ea669f7419d548151ae53b82
+      internalID: -402957448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 46
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64958bdcbc4280f408abe585c52b3151
+      internalID: -88398767
       vertices: []
       indices: 
       edges: []
@@ -337,16 +442,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GoldCoin_2: 2134485487
-      GoldCoin_7: 1952575856
-      GoldCoin_6: -346876592
-      GoldCoin_4: 369547275
-      GoldCoin_5: -1301066834
-      GoldCoin_9: -500857409
-      GoldCoin_1: -755284451
-      GoldCoin_0: 1399100262
-      GoldCoin_8: -2025548892
-      GoldCoin_3: 1863383439
+      Heart_8: 1223196455
+      Heart_10: 1071426063
+      Heart_2: 1658847574
+      Heart_3: 503817516
+      Heart_7: -302303381
+      Heart_5: -1616236658
+      Heart_6: -266180434
+      Heart_11: -1376389628
+      Heart_14: -88398767
+      Heart_9: 2061935235
+      Heart_12: 1147301268
+      Heart_0: -945301601
+      Heart_1: -752266807
+      Heart_13: -402957448
+      Heart_4: 568856824
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
