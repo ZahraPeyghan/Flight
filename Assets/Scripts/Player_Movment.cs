@@ -7,6 +7,7 @@ public class Player_Movment : MonoBehaviour
     public Transform transform;
     public float Speed=1.5f;
     public float RatationSpeed=5f;
+    public  AudioSource CoinSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +43,7 @@ public class Player_Movment : MonoBehaviour
             Time.timeScale=0;
         }
         if(collition.gameObject.tag == "Coin"){
+            CoinSound.Play();
             Destroy(collition.gameObject);
         }
     }
