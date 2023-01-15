@@ -475,6 +475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Score: 0
   ScoreText: {fileID: 1391683641}
+  highScore: 0
 --- !u!82 &1054239874
 AudioSource:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Planes
   - Coin
+  - Heart
   layers:
   - Default
   - TransparentFX
