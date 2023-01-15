@@ -12,6 +12,8 @@ public class Scoure_Manager : MonoBehaviour
     void Start()
     {
         StartCoroutine(score());
+        highScore = PlayerPrefs.GetInt("high_score" , 0);
+        Debug.Log("High Score Stored :" + highScore);
     }
 
     // Update is called once per frame
@@ -20,14 +22,13 @@ public class Scoure_Manager : MonoBehaviour
         ScoreText.text = Score.ToString();
         if (Score > highScore){
             highScore = Score;
-            Debug.Log ("High Score :" + highScore);
+            PlayerPrefs.SetInt("high_score",highScore);
         }
     }
     IEnumerator score(){
         while(true){
              yield return new WaitForSeconds(2);
             Score = Score + 1;
-            // Debug.Log("Score :" + Score);
         }
     }
 }
