@@ -11,10 +11,13 @@ public class Game_Controller : MonoBehaviour
     public int score;
     public int highscore;
     public Scoure_Manager score_manager;
+    public GameObject gamepousepanel;
+    public GameObject gamepousebutton;
     // Start is called before the first frame update
     void Start()
     {
-        
+        gamepousepanel.SetActive(false);
+        gamepousebutton.SetActive(true);
     }
 
     // Update is called once per frame
@@ -33,8 +36,12 @@ public class Game_Controller : MonoBehaviour
     }
     public void Pouse(){
         Time.timeScale=0;
+        gamepousepanel.SetActive(true);
+        gamepousebutton.SetActive(false);
     }
     public void Resume(){
         Time.timeScale=1;
+        gamepousepanel.SetActive(false);
+        gamepousebutton.SetActive(true);
     }
 }
