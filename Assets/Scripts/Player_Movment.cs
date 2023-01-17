@@ -14,6 +14,7 @@ public class Player_Movment : MonoBehaviour
     void Start()
     {
         gameoverpanel.SetActive(false);
+        Time.timeScale=1;
     }
 
     // Update is called once per frame
