@@ -10,14 +10,15 @@ public class Scoure_Manager : MonoBehaviour
     public Text ScoreText;
     public int highScore = 0;
     public static int lastScore = 0;
+    public Text HighScoreText;
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(score());
         StartCoroutine(Reload());
         highScore = PlayerPrefs.GetInt("high_score" , 0);
-        Debug.Log("High Score Stored :" + highScore);
         Debug.Log("Last Score :" + lastScore);
+        HighScoreText.text = "High Score :" + highScore.ToString();
     }
 
     // Update is called once per frame
