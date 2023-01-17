@@ -28,7 +28,13 @@ public class Game_Controller : MonoBehaviour
     public void Restart(){
         SceneManager.LoadScene("Game");
     }
-     public void Home(){
+    public void Home(){
         SceneManager.LoadScene("Menu");
+    }
+    public void Pouse(){
+        Time.timeScale=0;
+    }
+    public void Resume(){
+        Time.timeScale=1;
     }
 }
