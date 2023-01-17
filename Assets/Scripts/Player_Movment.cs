@@ -9,10 +9,11 @@ public class Player_Movment : MonoBehaviour
     public float RatationSpeed=5f;
     public  AudioSource CoinSound;
     public Scoure_Manager Score_Value;
+    public GameObject gameoverpanel;
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameoverpanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -42,6 +43,7 @@ public class Player_Movment : MonoBehaviour
     private void OnTriggerEnter2D (Collider2D collition){
         if(collition.gameObject.tag == "Planes"){
             Time.timeScale=0;
+            gameoverpanel.SetActive(true);
         }
         if(collition.gameObject.tag == "Coin"){
             CoinSound.Play();
