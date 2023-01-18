@@ -6,6 +6,7 @@ public class Sky_Movment : MonoBehaviour
 {
     public Renderer meshRenderer;
     public float Speed=0.1f;
+    public GameObject Sky;
     // Start is called before the first frame update
     void Start()
     {

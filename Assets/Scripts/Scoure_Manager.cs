@@ -12,6 +12,8 @@ public class Scoure_Manager : MonoBehaviour
     public  static int lastScore = 0;
     public Text HighScoreText;
     public Text LastScoreText;
+    public Forest_Movment forest_movment;
+    public Sky_Movment sky_movment;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,10 @@ public class Scoure_Manager : MonoBehaviour
         if (Score > highScore){
             highScore = Score;
             PlayerPrefs.SetInt("high_score",highScore);
+        }
+        if (Score > 100){
+            sky_movment.Sky.SetActive(false);
+            forest_movment.Forest.SetActive(true);
         }
     }
     IEnumerator score(){

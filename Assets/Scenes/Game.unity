@@ -392,7 +392,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 56cb06a424652e34794f3fc96a84d77a, type: 2}
+  - {fileID: 2100000, guid: 0a181c5e71df47440aa31a40fd24dbda, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1833,6 +1833,8 @@ MonoBehaviour:
   highScore: 0
   HighScoreText: {fileID: 2025693834}
   LastScoreText: {fileID: 1594451984}
+  forest_movment: {fileID: 169405127}
+  sky_movment: {fileID: 1965383921}
 --- !u!82 &1054239874
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2483,7 +2485,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 150
+    m_FontSize: 110
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
@@ -3255,6 +3257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meshRenderer: {fileID: 1965383918}
   Speed: 0.1
+  Sky: {fileID: 1965383916}
 --- !u!1 &2025693832
 GameObject:
   m_ObjectHideFlags: 0
