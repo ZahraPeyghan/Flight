@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,9 +9,10 @@ public class Player_Movment : MonoBehaviour
     public float Speed=1.5f;
     public float RatationSpeed=5f;
     public  AudioSource CoinSound;
-    public  AudioSource GameOverPanelSound;
     public Scoure_Manager Score_Value;
     public GameObject gameoverpanel;
+    public GameObject bulletprefabs;
+    public float bulletspeed;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,7 @@ public class Player_Movment : MonoBehaviour
     void Update()
     {
         Movment();
+        Shooting();
         Clamp();
     }
      public void Movment(){
@@ -42,11 +45,19 @@ public class Player_Movment : MonoBehaviour
         pos.x=Mathf.Clamp(pos.x,-1.85f,1.85f);
         transform.position=pos;
     }
+    void Shooting(){
+        if(Input.GetKeyDown(KeyCode.Space)){
+            GameObject bullet = Instantiate(bulletprefabs);
+            bullet.transform.SetParent(transform.parent);
+            bullet.transform.position = transform.position;
+            bullet.GetComponent<Rigidbody2D>().velocity = new Vector3(0, bulletspeed , transform.position.z);
+            Destroy(bullet, 5);
+        }
+    }
     private void OnTriggerEnter2D (Collider2D collition){
         if(collition.gameObject.tag == "Planes"){
             Time.timeScale=0;
             gameoverpanel.SetActive(true);
-            GameOverPanelSound.Play();
         }
         if(collition.gameObject.tag == "Coin"){
             CoinSound.Play();
@@ -58,5 +69,16 @@ public class Player_Movment : MonoBehaviour
             Speed = 2.5f;
             Destroy(collition.gameObject);
         }
+    }
+
+    public override bool Equals(object obj)
+    {
+        return obj is Player_Movment movment &&
+               EqualityComparer<AudioSource>.Default.Equals(CoinSound, movment.CoinSound);
+    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(CoinSound);
     }
 }

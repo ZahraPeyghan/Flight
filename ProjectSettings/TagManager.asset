@@ -7,6 +7,7 @@ TagManager:
   - Planes
   - Coin
   - Heart
+  - Bullet
   layers:
   - Default
   - TransparentFX
