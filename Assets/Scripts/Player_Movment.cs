@@ -8,6 +8,7 @@ public class Player_Movment : MonoBehaviour
     public float Speed=1.5f;
     public float RatationSpeed=5f;
     public  AudioSource CoinSound;
+    public  AudioSource GameOverPanelSound;
     public Scoure_Manager Score_Value;
     public GameObject gameoverpanel;
     // Start is called before the first frame update
@@ -23,7 +24,7 @@ public class Player_Movment : MonoBehaviour
         Movment();
         Clamp();
     }
-    void Movment(){
+     public void Movment(){
          if(Input.GetKey(KeyCode.RightArrow)){
             transform.position += new Vector3 (Speed * Time.deltaTime,0,0);
             transform.rotation= Quaternion.Lerp(transform.rotation,Quaternion.Euler(0,0,-30f),RatationSpeed * Time.deltaTime);
@@ -45,6 +46,7 @@ public class Player_Movment : MonoBehaviour
         if(collition.gameObject.tag == "Planes"){
             Time.timeScale=0;
             gameoverpanel.SetActive(true);
+            GameOverPanelSound.Play();
         }
         if(collition.gameObject.tag == "Coin"){
             CoinSound.Play();
@@ -53,7 +55,7 @@ public class Player_Movment : MonoBehaviour
         }
         if(collition.gameObject.tag == "Heart"){
             CoinSound.Play();
-            Score_Value.Score +=20;
+            Speed = 2.5f;
             Destroy(collition.gameObject);
         }
     }
