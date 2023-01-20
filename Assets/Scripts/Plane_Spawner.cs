@@ -19,7 +19,7 @@ public class Plane_Spawner : MonoBehaviour
      void Plane()
     {
             int rand = Random.Range(0,plane.Length);
-            float randXPos= Random.Range(-1.85f,1.85f);
+            float randXPos= Random.Range(-4.11f,4.11f);
             Instantiate(plane[rand], new Vector3(randXPos, transform.position.y,transform.position.z) ,Quaternion.Euler(0,0,0));
         
     }

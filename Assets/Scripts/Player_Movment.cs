@@ -6,8 +6,8 @@ using UnityEngine;
 public class Player_Movment : MonoBehaviour
 {
     public Transform transform;
-    public float Speed=1.5f;
-    public float RatationSpeed=5f;
+    public float Speed=6f;
+    public float RatationSpeed=6f;
     public  AudioSource CoinSound;
     public Scoure_Manager Score_Value;
     public GameObject gameoverpanel;
@@ -42,7 +42,7 @@ public class Player_Movment : MonoBehaviour
     }
     void Clamp(){
         Vector3 pos=transform.position;
-        pos.x=Mathf.Clamp(pos.x,-1.85f,1.85f);
+        pos.x=Mathf.Clamp(pos.x,-4.11f,4.11f);
         transform.position=pos;
     }
     void Shooting(){
@@ -66,7 +66,7 @@ public class Player_Movment : MonoBehaviour
         }
         if(collition.gameObject.tag == "Heart"){
             CoinSound.Play();
-            Speed = 2.5f;
+            Speed = 8f;
             Destroy(collition.gameObject);
         }
     }

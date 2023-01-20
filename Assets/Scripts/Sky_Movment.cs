@@ -5,7 +5,7 @@ using UnityEngine;
 public class Sky_Movment : MonoBehaviour
 {
     public Renderer meshRenderer;
-    public float Speed=0.1f;
+    public float Speed=0.3f;
     public GameObject Sky;
     // Start is called before the first frame update
     void Start()
